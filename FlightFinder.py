@@ -5,7 +5,7 @@
 # Departure Time, Arrival Time, and Price. It will then allow the user to seach through the data in
 # certain ways. These ways will include: 1) Find all the flights on a particular airline
 # 2)Find the cheapest flight, 3)Find all flights less than a specified price, 4) Find the
-# shortest flight, 5) Find all flights that daepart within a specified range, 6) Find the
+# shortest flight, 5) Find all flights that depart within a specified range, 6) Find the
 # average price for a specified airline, and 7) Quit the program.
 #
 # For each option a function will be written to compute the answer. For example, if the user
