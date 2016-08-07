@@ -1,4 +1,34 @@
 
+/*
+Instructions for the Assignment
+Declare these list variables, each with seven values in the list:
+firstNames : a list with seven string variables of first names. Make the first firstname be your own first name.
+lastNames -  a list with seven string variables of last names. Make the first lastname be your own lastname.
+ages - a list of strings (not integers!)  which will have in it: X,5, 16, 21years, 17.6, 19, -18, 917. Where instead of X put your actual age.
+
+These lists must be in the same order. That is, the first name at index 0 should correspond to the last name at index 0 and the age at index 0; and so on. Each list is a list of strings so don’t forget the single quotes around each data value.
+
+Read input from the user to accept another first name, last name, and age.  Add this data to the data lists of the program (make a total of 8 names with their age).
+
+Write a for loop to go through the 8 names and print a CSV line with first name followed by last name followed by age,  for all names that have valid ages. If an age is not valid and can’t be fixed (e.g. a negative number can not be fixed, but “21years” should be fixed by removing the “years” and then using the 21), then do not print the data record.  Use your code from the Conditionals assignment to check for valid ages.
+*/
+
+For instance, the data:
+First names: Tim, Bill, Sue, Eric, Latisha, Juan, Jen
+Last names:  Hill, Smith, Jones, Wolfe, Williams, Gomez, Johnson
+Ages: 5, 16, 21years, 17.6, 19, -18, 917
+And the input from the user:
+                        Casey
+                        Fay
+                        12
+ Would yield output:
+       Bill,Smith,16
+       Sue,Jones,21
+       Eric, Wolfe, 17
+       Latisha, Williams,19
+       Casey, Fay, 12
+
+#My Solution:
 #List of First and Last names and ages
 firstNames = ['Mike', 'Bill', 'Rose', 'Shawna', 'Graham', 'John', 'Bobby']
 
